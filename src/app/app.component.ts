@@ -38,7 +38,6 @@ export class AppComponent {
               this.sourceList.push(satellite);
             }
             this.displayList = this.sourceList.slice(0);
-            //console.log(this.sourceList);
           }.bind(this)
         );
       }.bind(this)
